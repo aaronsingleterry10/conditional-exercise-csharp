@@ -24,12 +24,20 @@ namespace ConditionalExercise
             var response5 = NumberValidation.validation(user5.userNumber);
             var response6 = NumberValidation.validation(user6.userNumber);
 
-            Console.WriteLine("Response 1: " + response1);
-            Console.WriteLine("Response 2: " + response2);
-            Console.WriteLine("Response 3: " + response3);
-            Console.WriteLine("Response 4: " + response4);
-            Console.WriteLine("Response 5: " + response5);
-            Console.WriteLine("Response 6: " + response6);
+            //Console.WriteLine("Response 1: " + response1);
+            //Console.WriteLine("Response 2: " + response2);
+            //Console.WriteLine("Response 3: " + response3);
+            //Console.WriteLine("Response 4: " + response4);
+            //Console.WriteLine("Response 5: " + response5);
+            //Console.WriteLine("Response 6: " + response6);
+
+            var maxNumber1 = MaxNumber.maxNumber(user1.userNumber, user2.userNumber);
+            var maxNumber2 = MaxNumber.maxNumber(user3.userNumber, user4.userNumber);
+            var maxNumber3 = MaxNumber.maxNumber(user5.userNumber, user6.userNumber);
+
+            Console.WriteLine("The winner is: " + maxNumber1);
+            Console.WriteLine("The winner is: " + maxNumber2);
+            Console.WriteLine("The winner is: " + maxNumber3);
         }
     }
 }
