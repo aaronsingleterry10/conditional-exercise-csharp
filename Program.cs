@@ -47,7 +47,7 @@ namespace ConditionalExercise
             var imgOrientation2 = img2.pageOrientation();
             var imgOrientation3 = img3.pageOrientation();
 
-            Console.WriteLine(imgOrientation1);
+            //Console.WriteLine(imgOrientation1);
             Console.WriteLine(imgOrientation2);
             Console.WriteLine(imgOrientation3);
         }
