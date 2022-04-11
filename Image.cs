@@ -2,6 +2,7 @@
 {
     public enum Image
     {
-
+        Landscape,
+        Portrait
     }
 }

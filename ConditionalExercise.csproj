@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ImageDimension.cs" />
+    <Compile Include="Image.cs" />
     <Compile Include="MaxNumber.cs" />
     <Compile Include="NumberValidation.cs" />
     <Compile Include="Program.cs" />

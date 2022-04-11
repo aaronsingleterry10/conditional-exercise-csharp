@@ -35,9 +35,21 @@ namespace ConditionalExercise
             var maxNumber2 = MaxNumber.maxNumber(user3.userNumber, user4.userNumber);
             var maxNumber3 = MaxNumber.maxNumber(user5.userNumber, user6.userNumber);
 
-            Console.WriteLine("The winner is: " + maxNumber1);
-            Console.WriteLine("The winner is: " + maxNumber2);
-            Console.WriteLine("The winner is: " + maxNumber3);
+            //Console.WriteLine("The winner is: " + maxNumber1);
+            //Console.WriteLine("The winner is: " + maxNumber2);
+            //Console.WriteLine("The winner is: " + maxNumber3);
+
+            var img1 = new ImageDimension() { width = 200, height = 400 };
+            var img2 = new ImageDimension() { width = 210, height = 100 };
+            var img3 = new ImageDimension() { width = 500, height = 500 };
+
+            var imgOrientation1 = img1.pageOrientation();
+            var imgOrientation2 = img2.pageOrientation();
+            var imgOrientation3 = img3.pageOrientation();
+
+            Console.WriteLine(imgOrientation1);
+            Console.WriteLine(imgOrientation2);
+            Console.WriteLine(imgOrientation3);
         }
     }
 }
